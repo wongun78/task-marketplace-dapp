@@ -29,10 +29,12 @@ A fully decentralized, trustless freelance marketplace where clients can post ta
 ## 🏗️ Technology Stack
 
 ### Smart Contract (Backend)
+
 - **Solidity (`^0.8.20`)**: The core programming language for the smart contract.
 - **Hardhat**: Development environment to compile, deploy, test, and debug Ethereum software.
 
 ### Frontend (User Interface)
+
 - **React 19**: Modern UI library for building the single-page application.
 - **Vite**: Lightning-fast frontend build tool.
 - **Tailwind CSS v4**: Utility-first CSS framework for rapid and responsive styling.
@@ -64,16 +66,19 @@ task-marketplace-dapp/
 ## 🚀 Getting Started
 
 ### Prerequisites
+
 - [Node.js](https://nodejs.org/) (v18+ recommended)
 - [MetaMask](https://metamask.io/) Extension installed in your browser.
 
 ### 1. Clone the repository
+
 ```bash
 git clone https://github.com/wongun78/task-marketplace-dapp.git
 cd task-marketplace-dapp
 ```
 
 ### 2. Setup Smart Contracts
+
 ```bash
 cd task-marketplace
 npm install
@@ -89,6 +94,7 @@ npx hardhat run scripts/deploy.js --network localhost
 ```
 
 ### 3. Setup Frontend
+
 Before running the frontend, ensure the `CONTRACT_ADDRESS` in `task-marketplace-frontend/src/config/contract.js` matches your deployed contract address. Also, make sure to copy the latest ABI JSON file from the `/artifacts` folder.
 
 ```bash
